@@ -1,0 +1,17 @@
+
+{
+		"blogs": [
+		{
+			"title": "What should you know about coronavirus",
+			"datedOn": "28/12/2019",
+			"summary": "How hard is it to make a decision on COVID provided the amount of data being circulated around us?",
+			"summImage": "./search_icon.png"
+		},
+		{
+			"title": "What should you know about coronavirus",
+			"datedOn": "28/12/2019",
+			"summary": "How hard is it to make a decision on COVID provided the amount of data being circulated around us?",
+			"summImage": "./search_icon.png"
+		}
+	]
+}
