@@ -1,0 +1,5 @@
+Notes:
+
+1) Logo acts as the hyperlink. Clicking on Logo, moves the user to homepage.
+2) Used Standalone CSS and Styled components.
+3) Connected with Google News API. API refreshes every 5 seconds. Restricted only to display 10 feeds.
