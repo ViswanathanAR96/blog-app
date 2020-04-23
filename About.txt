@@ -1,5 +1,10 @@
 Notes:
 
 1) Logo acts as the hyperlink. Clicking on Logo, moves the user to homepage.
-2) Used Standalone CSS and Styled components.
-3) Connected with Google News API. API refreshes every 5 seconds. Restricted only to display 10 feeds.
+2) Connected with Google News API. API refreshes every 5 seconds. Restricted only to display 10 feeds. API refreshes but, the news stays the same. On testing, noticed that I had to wait atleast 30-45 minutes for the news feed to change.
+
+
+Steps:
+1) Open command prompt, navigate to the project folder. Install packages. npm install
+2) Start the server. npm start
+3) localhost:3000/ will be lauched. And, tellmeastory application would be loaded.
