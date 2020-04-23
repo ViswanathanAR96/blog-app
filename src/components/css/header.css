@@ -38,19 +38,3 @@ nav a{
     text-decoration: none;
     padding-top: 20px;
 }
-
-.searchInput:focus{
-    outline: none
-}
-
-.searchInput{
-    border: none;
-    width: 0px;
-}
-
-.searchInput.active{
-    border: none;
-    width: 200px;
-    height: 32px;
-    transition: width 1s ease-in;
-}
