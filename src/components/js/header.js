@@ -5,15 +5,6 @@ import {Link} from "react-router-dom";
 
 function Header() {
     
-     const [search, setSearch] = useState(false);
-
-     const openSearch = () => {
-        setSearch(true);
-    }
-
-    
-
-
     const searchClass = search ? 'searchInput active' : 'searchInput';
 
     return (
@@ -26,17 +17,9 @@ function Header() {
                 </div>
                 
             </header>
-            <div>
-                <div className = 'search'>
-                    <input className = {searchClass} type = "text" placeholder ="Search"/>
-                    <img className = "searchIcon" onClick = {openSearch} src={require('../../assets/search_icon.png')} alt = "Search" />
-                </div>
-            </div>
         </div>
         
     )
 }
-
-
 
 export default Header
